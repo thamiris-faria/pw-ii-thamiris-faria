@@ -4,7 +4,7 @@
  $result = $numeros[0];
 
  foreach($numeros as $numero){
-    if($n > $result){
+    if($numeros > $result) {
         $result = $numero;
     }
  }
